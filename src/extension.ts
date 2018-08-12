@@ -9,14 +9,14 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.window.showInformationMessage('Hold on. Your extensions are being exported.');
         let execPath: string = "";
         execPath = getExecPath();
-        console.log("Exec path:" + execPath)
+        console.log("Exec path:" + execPath);
         if (execPath !== null) {
             let execList = getExtensionList(execPath);
             let hastebinData = {
                 "OS": process.env.OS,
                 "extensions": execList
-            }
-            hastebin(JSON.stringify(hastebinData, undefined, 4), "json").then(r => {
+            };
+            hastebin(JSON.stringify(hastebinData, undefined, 4), "json").then((r:any) => {
                 var URL = new parse(r);
                 URL.pathname = ("/raw" + URL.pathname).replace(/.json/, "");
                 console.log(URL.toString());

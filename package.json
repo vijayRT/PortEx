@@ -3,7 +3,7 @@
     "displayName": "PortEx",
     "description": "Import and export extensions quickly. No GitHub tokens required.",
     "version": "0.0.1",
-    "publisher": "VijayRajasekar",
+    "publisher": "kronosfear",
     "engines": {
         "vscode": "^1.25.0"
     },
