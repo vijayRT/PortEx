@@ -2,7 +2,7 @@
     "name": "portex",
     "displayName": "PortEx",
     "description": "Export and import extensions quickly. No GitHub tokens required.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "kronosfear",
     "engines": {
         "vscode": "^1.25.0"
