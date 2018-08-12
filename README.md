@@ -1,65 +1,23 @@
-# portex README
+# PortEx
 
 Quickly export and import extensions. Designed for simplicity.
 
+[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync#overview) is a pretty amazing extension for VS Code. But sometimes you are going to need your extensions exported and imported without the hassle of setting up GitHub tokens. For example, when your main dev machine breaks down and your IT guy wants you to use a temporary laptop for a few days.
+
+PortEx gets the names of all your extensions exported into a JSON file onto Hastebin and provides you with the link to the Hastebin drop. On your other machine, all you will need is PortEx to import the extensions.
+
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+#Export 
 
-For example if there is an image subfolder under your extension project workspace:
+Export extensions from your current VS Code install by opening up the Command Palette `Ctrl+Shift+P` and entering **Export VSCode Extensions**.
 
-\!\[feature X\]\(images/feature-x.png\)
+A list of your VS Code Extensions will be exported to Hastebin in JSON format.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+#Import
 
-## Requirements
+Import extensions by opening up the Commmand Palette `Ctrl+Shift+P` and entering **Import VSCode Extensions**.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+In the popup that opens, drop the Hastebin link previously generated and sit tight while PortEx installs all your extensions.
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+That's it. You are ready to use all the extensions you had.
