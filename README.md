@@ -2,7 +2,7 @@
 
 Quickly export and import extensions. Designed for simplicity.
 
-[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync#overview) is a pretty amazing extension for VS Code. But sometimes you are going to need your extensions exported and imported without the hassle of setting up GitHub tokens. For example, when your main dev machine breaks down and your IT guy wants you to use a temporary laptop for a few days.
+[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync#overview) is a pretty amazing extension for VS Code. But when your main dev machine breaks down and your IT guy wants you to use a temporary laptop for a few days, you are going to need your extensions exported and imported without the hassle of setting up GitHub tokens.
 
 PortEx gets the names of all your extensions exported into a JSON file onto Hastebin and provides you with the link to the Hastebin drop. On your other machine, all you will need is PortEx to import the extensions.
 
