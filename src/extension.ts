@@ -1,11 +1,11 @@
 'use strict';
 
 import * as vscode from 'vscode';
-var shell = require('shelljs');
+const shell = require('shelljs');
 const hastebin = require('hastebin-gen');
 const parse = require('url-parse');
-var os = require('os');
-var axios = require('axios');
+const os = require('os');
+const axios = require('axios');
 
 export function activate(context: vscode.ExtensionContext) {
     let exportDisposable = vscode.commands.registerCommand('extension.export', () => {
