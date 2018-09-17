@@ -6,15 +6,15 @@ Quickly export and import extensions. Designed for simplicity.
 
 PortEx gets the names of all your extensions exported into a JSON file onto Hastebin and provides you with the link to the Hastebin drop. On your other machine, all you will need is PortEx to import the extensions.
 
-## Features
+# Features
 
-#Export 
+## Export 
 
 Export extensions from your current VS Code install by opening up the Command Palette `Ctrl+Shift+P` and entering **Export VSCode Extensions**.
 
 A list of your VS Code Extensions will be exported to Hastebin in JSON format.
 
-#Import
+## Import
 
 Import extensions by opening up the Commmand Palette `Ctrl+Shift+P` and entering **Import VSCode Extensions**.
 
